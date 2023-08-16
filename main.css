@@ -1,0 +1,94 @@
+body {
+    background-color: #313131;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    align-items: flex-start;
+}
+
+.header {
+    width: 100%;
+    height: 56px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+
+}
+
+.header .facebook {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+}
+
+.header .main-menu {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+
+.header .notifications {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin-right: 10px; 
+}
+
+.notification-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .notification-badge {
+    position: absolute;
+    background-color: red;
+    color: white;
+    border-radius: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+  }
+
+
+.notification-badge.flg {
+    width: 22px;
+    height: 18px;
+    top: -3px;
+    right: -13px;
+}
+
+.notification-badge.vid {
+    width: 22px;
+    height: 18px;
+    top: -5px;
+    right: -13px;
+}
+
+.notification-badge.mess {
+    width: 13px;
+    height: 13px;
+    top: -8px;
+    right: -8px;
+}
+
+.notification-badge.not {
+    width: 13px;
+    height: 13px;
+    top: -3px;
+    right: -6px;
+}
+
+
+
+
+
+
